@@ -456,3 +456,7 @@ ul.navbar li a:hover::before {
 html {
   scroll-behavior: smooth; /* Enables smooth scrolling */
 }
+a {
+  text-decoration: none;
+  color: var(--accent-color);
+}
