@@ -56,72 +56,89 @@
         </div>
     </section>
     
-    <section id="projects">
-        <h2>My Projects</h2>
-        <div class="project-grid">
-            <!-- UK Railway System Project Card -->
-            <div class="project-card">
-                <div class="card-content">
-                    <div class="card-description">
-                        <h3>UK Railway System</h3>
-                        <p>An interactive railway system simulation built using Python and Tkinter, allowing users to manage train schedules, routes, and bookings.</p>
-                    </div>
-                    <div class="card-images">
-                        <img src="images/systemHomePage.png" alt="System Home Page" class="d-block w-100">
-                        <img src="images/systemAdminInterface.png" alt="System Admin Interface" class="d-block w-100">
-                        <img src="images/systemAdminLogin.png" alt="System Admin Login" class="d-block w-100">
-                        <img src="images/systemConfirmation.png" alt="System Confirmation" class="d-block w-100">
-                    </div>
-                </div> <!-- Close the card-content div -->
-            </div> <!-- Close the project-card div -->
-    
-            <!-- Football Player Transfer Value Website Project Card -->
-            <div class="project-card">
-                <div class="card-content">
-                    <div class="card-description">
-                        <h3>Football Player Transfer Value Website</h3>
-                        <p>This website was developed to be similar to TransferMarket, showcasing players' transfer market values but with a better UI/UX.</p>
-                    </div>
-                    <div class="card-images">
-                        <img src="images/TransferValueComparison.png" alt="Transfer Value Comparison" class="d-block w-100">
-                        <img src="images/TransferValueAdmin.png" alt="Transfer Value Admin" class="d-block w-100">
-                    </div>
-                </div> <!-- Close the card-content div -->
-            </div> <!-- Close the project-card div -->
-    
-            <!-- Premier League Prediction Models Project Card -->
-            <div class="project-card">
-                <div class="card-content">
-                    <div class="card-description">
-                        <h3>Premier League Prediction Models</h3>
-                        <p>Developed machine learning models (DNN, SVM, Random Forest) to predict player transfer values based on performance metrics.</p>
-                    </div>
-                    <div class="card-images">
-                        <img src="images/SvmPolynmialKernelVisualisation.png" alt="SVM Polynomial Kernel Visualisation" class="d-block w-100">
-                        <img src="images/ModelsComparison.png" alt="Models Comparison" class="d-block w-100">
-                    </div>
-                </div> 
-            </div> 
-    
-            <!-- Hotel Booking Website Project Card -->
-            <div class="project-card">
-                <div class="card-content">
-                    <div class="card-description">
-                        <h3>Hotel Booking Website</h3>
-                        <p>This project involved full-stack development of a hotel booking platform with a focus on UI/UX design and functionality.</p>
-                    </div>
-                    <div class="card-images">
-                        <img src="images/HotelHomepage.png" alt="Hotel Booking Home Page" class="d-block w-100">
-                        <img src="images/HotelBooking.png" alt="Hotel Booking" class="d-block w-100">
-                        <img src="images/HotelSignup.png" alt="Hotel Sign Up" class="d-block w-100">
-                        <img src="images/Hotelprofile.png" alt="Hotel Login" class="d-block w-100">
-                        <img src="images/HotelTermsandconditions.png" alt="Hotel Terms and Conditions" class="d-block w-100">
-                        <img src="images/HotelAdminInterface.png" alt="Hotel Admin Interface" class="d-block w-100">
-                    </div>
-                </div> 
-            </div> 
-        </div> 
-    </section>
+<section id="projects" class="container">
+  <h2>Projects</h2>
+
+  <!-- Machine Learning & AI Projects -->
+  <h3>Machine Learning & AI Projects</h3>
+  <div class="project-grid">
+    <!-- Premier League Prediction -->
+    <div class="project-card">
+        <div class="card-content">
+            <h3>Premier League Prediction Models</h3>
+            <p>Developed DNN, SVM, and Random Forest models to predict player transfer values based on performance metrics. Included model comparison and data visualisation.</p>
+            <img src="images/ModelsComparison.png" alt="Model comparison">
+            <img src="images/SvmPolynmialKernelVisualisation.png" alt="SVM Kernel Visualisation">
+        </div>
+    </div>
+
+    <!-- CV - Job Listing Matcher -->
+    <div class="project-card">
+        <div class="card-content">
+            <h3>CV–Job Listing Matcher</h3>
+            <p>Built an NLP pipeline to match CVs to job descriptions by extracting relevant skills, keywords, and ranking compatibility using similarity metrics.</p>
+            <img src="images/CVMatcher.png" alt="CV Job Matcher">
+            <img src="images/CVMetrics.png" alt="CV Job Matcher 2">
+        </div>
+    </div>
+<!--
+     <div class="project-card">
+      <div class="card-content">
+        <h3>Engine Anomaly Detection</h3>
+        <p>Created a machine learning model to detect anomalies in engine data logs using time-series analysis and classification algorithms.</p>
+      </div>
+    </div>
+
+     <div class="project-card">
+      <div class="card-content">
+        <h3>WrongWayWatch</h3>
+        <p>Developed a system that identifies wrong-way vehicle movement using sensor data or video streams, triggering real-time alerts to prevent accidents.</p>
+      </div>
+    </div>
+-->
+    </div>
+
+  <!-- Software & Web Dev Projects -->
+  <h3>Software & Web Development Projects</h3>
+  <div class="project-grid">
+    <!-- Football Player Transfer Value Website -->
+    <div class="project-card">
+        <div class="card-content">
+            <h3>Football Player Transfer Value Website</h3>
+            <p>Developed a full-stack web application to showcase football player market values, with a modern UI/UX inspired by TransferMarket. Served as the frontend to ML prediction models.</p>
+            <img src="images/TransferValueComparison.png" alt="Transfer Value Comparison">
+            <img src="images/TransferValueAdmin.png" alt="Admin Dashboard">
+        </div>
+    </div>
+
+    <!-- UK Railway System -->
+    <div class="project-card">
+        <div class="card-content">
+            <h3>UK Railway System</h3>
+            <p>Python and Tkinter-based railway booking system with admin login, schedule management, and ticket booking confirmation.</p>
+            <img src="images/systemHomePage.png" alt="System Home Page">
+            <img src="images/systemAdminInterface.png" alt="Admin Interface">
+            <img src="images/systemAdminLogin.png" alt="Admin Login">
+            <img src="images/systemConfirmation.png" alt="Confirmation Page">
+        </div>
+    </div>
+
+    <!-- Hotel Booking Platform -->
+    <div class="project-card">
+      <div class="card-content">
+        <h3>Hotel Booking Platform</h3>
+        <p>Designed and implemented a hotel booking system with sign-up/login, profile management, booking flow, and admin panel using full-stack technologies.</p>
+        <img src="images/HotelHomepage.png" alt="Home Page">
+        <img src="images/HotelBooking.png" alt="Booking Page">
+        <img src="images/HotelSignup.png" alt="Sign Up Page">
+        <img src="images/Hotelprofile.png" alt="User Profile">
+        <img src="images/HotelTermsandconditions.png" alt="T&C Page">
+        <img src="images/HotelAdminInterface.png" alt="Admin Interface">
+      </div>
+    </div>
+  </div>
+</section>
+
     
 <section id="skills" class="container">
     <h2>Skills & Tools</h2>
