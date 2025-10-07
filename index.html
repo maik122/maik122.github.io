@@ -1,264 +1,773 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Mai Kassem's CV - A showcase of skills, experience, and projects">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <title>Mai kassem - CV</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mai Kassem's CV - A showcase of skills, experience, and projects">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <title>Mai Kassem - CV</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <nav>
-                <ul class="navbar">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#CV">CV</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="toggle-container">
-                <span class="toggle-label">Toggle Dark Mode</span>
-                <label class="switch">
-                    <input type="checkbox" id="dark-mode-toggle" aria-label="Toggle Dark Mode">
-                    <span class="slider"></span>
-                </label>
-            </div>
-            <img src="images/IMG.png" alt="Professional headshot of Mai Kassem" class="profile-photo" loading="lazy">            
-            <h1> Mai Kassem</h1>
-        </div>
-    </header>
-    
-    <section id="about" class="container">
-        <h2>About Me</h2>
-        <div class="center-wrapper">
-            <p>Computer science graduate with a keen interest in emerging technologies.
+  <header>
+    <div class="container header-container">
+      <nav>
+        <ul class="navbar">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#ml-projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#CV">CV</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
 
-                I have gained experience in various programming languages such as Python, C++ and some AI libraries like TensorFlow through coursework and personal projects, which helped me develop a solid understanding of algorithms, data structures, and development methodologies.
-                </p>
-        </div>  
-    </section>
+      <div class="toggle-container">
+        <span class="toggle-label">Toggle Dark Mode</span>
+        <label class="switch">
+          <input type="checkbox" id="dark-mode-toggle" aria-label="Toggle Dark Mode">
+          <span class="slider"></span>
+        </label>
+      </div>
 
-    <section id="education" class="container">
-        <h2>Education</h2>
-        <div class="center-wrapper">
-            <div class="education-item">
-                <h3>Bachelor of Computer Science | Artificial intelligence pathway</h3>
-                <p>University of the west of England</p>
-            </div>
-            <!-- Repeat for other education items -->
-        </div>
-    </section>
-    
+      <img src="images/IMG.png" alt="Professional headshot of Mai Kassem" class="profile-photo" loading="lazy">
+      <h1>Mai Kassem</h1>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="container">
+    <h2>About Me</h2>
+    <div class="center-wrapper">
+<p> 
+I’m a computer science grad fascinated by AI and machine learning.  
+that loves turning data into insights and building projects that solve real problems, from predicting football matches to creating recommendation systems.  
+always exploring new tech and pushing my skills further.
+</p>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="container">
+    <h2>Education</h2>
+    <div class="center-wrapper">
+      <div class="education-item">
+        <h3>Bachelor of Computer Science | Artificial Intelligence Pathway</h3>
+        <p>University of the West of England</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="container">
+  <h2>Experience</h2>
+  <div class="timeline">
+
+    <!-- Elevvo -->
+    <div class="timeline-item">
+      <div class="timeline-date">Aug 2025 - Sep 2025</div>
+      <div class="timeline-content">
+        <img src="images/elevvopaths_logo.jpeg" alt="Elevvo logo" class="company-logo">
+        <h3>Machine Learning Engineer — Elevvo </h3>
+        <ul>
+          <li><strong>Internship</strong></li>
+          <li>Worked on end-to-end ML projects: regression, clustering, classification, recommendations</li>
+          <li>Gained experience with time series and audio classification</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- EduLumos -->
+    <div class="timeline-item">
+      <div class="timeline-date">Oct 2025 - Present</div>
+      <div class="timeline-content">
+        <img src="images/EduLumous_Logo.jpeg" alt="EduLumos logo" class="company-logo">
+        <h3>Data Scientist — EduLumos</h3>
+         <ul>
+          <li><strong>Internship</strong></li>
+          <li>Data analysis, visualization, and ML workflows</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Arch Technologies -->
+    <div class="timeline-item">
+      <div class="timeline-date">Oct 2025 - Present</div>
+      <div class="timeline-content">
+        <img src="images/archtechnologies_logo.jpeg" alt="Arch Technologies logo" class="company-logo">
+        <h3>Generative AI Engineer — Arch Technologies</h3>
+         <ul>
+          <li><strong>Internship</strong></li>
+          <li>LLM-based and deep learning projects</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
 <section id="projects" class="container">
-    <h2>Projects</h2>
+  <!-- AI & Machine Learning Projects -->
+  <h2>AI & Machine Learning Projects</h2>
+  <div class="project-grid">
 
-    <!-- Machine Learning & AI Projects -->
-<section id="ml-projects" class="container">
-    <h2>AI & Machine Learning Projects</h2>
-<div class="project-grid">
-
-    <!-- Premier League Match Outcome Predictor -->
+    <!-- Premier League Project -->
     <div class="project-card">
-        <div class="card-content">
-            <h3>Premier League Match Outcome Predictor</h3>
-            <p>
-                Built and trained DNN, SVM, and Random Forest models on 5 seasons of Premier League match data to predict outcomes. Focused on 
-                data cleaning, feature engineering, and cross-validation for robust model tuning. Random Forest achieved 64.8% accuracy.
-            </p>
-            <a href="https://github.com/maik122/Predicting-Premier-League-Match-Outcomes.git" target="_blank">
-                <i class="fab fa-github"></i> View Project on GitHub
-            </a>
-            <div class="project-images">
-                <img src="images/ModelsComparison.png" alt="Comparison of model performance metrics for Premier League predictions">
-                <img src="images/SvmPolynmialKernelVisualisation.png" alt="Visualization of SVM polynomial kernel predictions">
-                <img src="images/premierleagueprediction.png" alt="Example prediction for a Premier League match">
+      <div class="card-content">
+        <h3>Premier League Match Outcome Predictor</h3>
+<p class="project-summary">
+<strong>Problem:</strong> Fantasy players and analysts lacked reliable match predictions. <br>
+<strong>Solution:</strong> Developed a predictive model to forecast outcomes and support informed decision-making.
+</p>
+
+        <a href="https://github.com/maik122/Predicting-Premier-League-Match-Outcomes.git"
+           target="_blank" class="github-link">
+          <i class="fab fa-github"></i> View Project on GitHub
+        </a>
+        <div class="carousel">
+          <button class="carousel-btn prev">&#10094;</button>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/ModelsComparison.png" alt="Model performance comparison">
+              <p class="carousel-caption">Comparison of model performance metrics</p>
             </div>
+            <div class="carousel-item">
+              <img src="images/SvmPolynmialKernelVisualisation.png" alt="SVM kernel visualisation">
+              <p class="carousel-caption">Visualising SVM Polynomial Kernel predictions</p>
+            </div>
+            <div class="carousel-item">
+              <img src="images/premierleagueprediction.png" alt="Prediction example">
+              <p class="carousel-caption">Premier League prediction result example</p>
+            </div>
+            
+          </div>
+          <button class="carousel-btn next">&#10095;</button>
         </div>
+                <div class="project-details">
+          <p>
+            Built and trained Deep Neural Networks (DNN), Support Vector Machines (SVM), and Random Forest models to predict football match outcomes.
+            Focused on data cleaning, feature engineering, and model comparison to optimise accuracy.
+            Used Python, scikit-learn, TensorFlow, and pandas to create a reliable prediction pipeline that could be deployed into fantasy apps.
+          </p>
+        </div>
+      </div>
     </div>
 
-</div>
-
-    </div>
-
-        <!-- Engine Anomaly Detection & RUL Prediction -->
-        <div class="project-card">
-        <div class="card-content">
+    <!-- Engine Anomaly -->
+    <div class="project-card">
+      <div class="card-content">
         <h3>Engine Anomaly Detection & RUL Prediction</h3>
-        <p>Built a GRU-based deep learning model to predict Remaining Useful Life (RUL) from multi-sensor engine data. Achieved MAE: 17.84 and R²: 0.83. Deployed via Flask for real-time predictions.</p>
-    </div>    
+<p class="project-summary">
+<strong>Problem:</strong> Unexpected engine failures caused downtime and safety risks.  <br>
+<strong>Solution:</strong> Created a system that forecasts engine issues in advance, improving maintenance planning.
+</p>
+
+        <a href="https://github.com/maik122/EngineAnomalyDetection" target="_blank" class="github-link">
+          <i class="fab fa-github"></i> View Project on GitHub
+        </a>
+      </div>
+                    <div class="project-details">
+          <p>
+            Created a GRU-based neural network trained on NASA’s Turbofan Engine Degradation dataset to forecast Remaining Useful Life (RUL).
+            Used sensor time-series data and anomaly detection logic to preempt engine failures.
+            This project demonstrates predictive maintenance, time-series modelling, and advanced GRU architectures in real-world engineering use.
+          </p>
+        </div>
     </div>
 
-        <!-- Traffic Violation Detection (In Progress) -->
-        <div class="project-card">
-            <div class="card-content">
+    <!-- Traffic Violation -->
+    <div class="project-card">
+      <div class="card-content">
         <h3>Traffic Violation Detection (In Progress)</h3>
-        <p>Developing a YOLOv8-based computer vision system to detect wrong-way driving in real time. Integrating with Flask/FastAPI for API-based inference.</p>
+<p class="project-summary">
+<strong> Problem:</strong> Manual monitoring of traffic violations was inefficient.  <br>
+<strong>Solution:</strong> Built an automated detection system to improve compliance and enforcement.
+</p>
+
+
+        <a href="https://github.com/maik122/Traffic-Violation-Detection.git" target="_blank" class="github-link">
+          <i class="fab fa-github"></i> View Project on GitHub
+        </a>    
+      </div>
+        <div class="project-details">
+          <p>
+            Developing a YOLOv8-based vision model to detect and classify traffic violations such as signal jumps and lane breaches.
+            Focuses on real-time detection and alerting from live CCTV feeds, with plans for integration into traffic control systems.
+          </p>
+        </div>
+    </div>
+
+    <!-- Job Matcher -->
+    <div class="project-card">
+      <div class="card-content">
+        <h3>Job Keyword Matcher</h3>
+<p class="project-summary">
+<strong> Problem:</strong> Job seekers struggled to tailor CVs for specific roles.  <br>
+<strong>Solution:</strong> Designed a tool that identifies skill gaps and ranks CV alignment with job postings.
+</p>
+
+
+        <a href="https://github.com/maik122/Job-Keyword-Matcher.git" target="_blank" class="github-link">
+          <i class="fab fa-github"></i> View Project on GitHub
+        </a>
+        <div class="carousel">
+          <button class="carousel-btn prev">&#10094;</button>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/CVMatcher.png" alt="Job Matcher">
+              <p class="carousel-caption">AI-powered CV keyword analysis</p>
             </div>
-    </div>
-
-        <!-- Job Keyword Matcher -->
-        <div class="project-card">
-            <div class="card-content">
-            <h3>Job Keyword Matcher</h3>
-            <p>Built an AI-powered Streamlit app that compares a CV with a job description using NLP. Extracts keywords, scores similarity using TF-IDF & Cosine Similarity, and recommends upskilling resources via HuggingFace models.</p>
-            <img src="images/CVMatcher.png" alt="Job Keyword Matcher">
-            <img src="images/CVMetrics.png" alt="Job Keyword Matcher Results">
+            <div class="carousel-item">
+              <img src="images/CVMetrics.png" alt="Results view">
+              <p class="carousel-caption">Result comparison for CV matching</p>
             </div>
+          </div>
+          <button class="carousel-btn next">&#10095;</button>
         </div>
-
+                <div class="project-details">
+          <p>
+            Developed an NLP-powered Streamlit app that analyses a candidate’s CV against job descriptions.
+            Uses spaCy and TF-IDF vectorisation to identify missing skills, and presents similarity scores visually.
+            Aimed at improving job match accuracy and automating career profile optimisation.
+          </p>
+        </div>
+      </div>
     </div>
-</section>
-
-
-    <!-- Software & Web Dev Projects -->
-    <h2>Software & Web Development Projects</h2>
-    <div class="project-grid">
-    <!-- Football Player Transfer Value Website -->
-    <div class="project-card">
-        <div class="card-content">
-            <h3>Football Player Transfer Value Website</h3>
-            <p>Developed a full-stack web application to showcase football player market values, with a modern UI/UX inspired by TransferMarket. Served as the frontend to ML prediction models.</p>
-            <img src="images/TransferValueComparison.png" alt="Transfer Value Comparison">
-            <img src="images/TransferValueAdmin.png" alt="Admin Dashboard">
-        </div>
-    </div>
-
-    <!-- UK Railway System -->
-    <div class="project-card">
-        <div class="card-content">
-            <h3>UK Railway System</h3>
-            <p>Python and Tkinter-based railway booking system with admin login, schedule management, and ticket booking confirmation.</p>
-            <img src="images/systemHomePage.png" alt="System Home Page">
-            <img src="images/systemAdminInterface.png" alt="Admin Interface">
-            <img src="images/systemAdminLogin.png" alt="Admin Login">
-            <img src="images/systemConfirmation.png" alt="Confirmation Page">
-        </div>
-    </div>
-
-    <!-- Hotel Booking Platform -->
-    <div class="project-card">
-        <div class="card-content">
-            <h3>Hotel Booking Platform</h3>
-            <p>Designed and implemented a hotel booking system with sign-up/login, profile management, booking flow, and admin panel using full-stack technologies.</p>
-            <img src="images/HotelHomepage.png" alt="Home Page">
-            <img src="images/HotelBooking.png" alt="Booking Page">
-            <img src="images/HotelSignup.png" alt="Sign Up Page">
-            <img src="images/Hotelprofile.png" alt="User Profile">
-            <img src="images/HotelTermsandconditions.png" alt="T&C Page">
-            <img src="images/HotelAdminInterface.png" alt="Admin Interface">
-        </div>
-        </div>
-    </div>
-</section>
-
     
+  </div>
+<!-- ========================= -->
+<!-- Internship Projects Section -->
+<!-- ========================= -->
+<section id="internships" class="container">
+  <h2>Internships & Professional Projects</h2>
+
+  <!-- Example: Elevvo ML Engineer Internship -->
+  <h3>Elevvo — Machine Learning Engineer Intern</h3>
+  <div class="project-grid">
+
+    <!-- Customer Segmentation -->
+    <div class="project-card">
+      <div class="card-content">
+        <h3>Customer Segmentation — Mall Customers</h3>
+<p class="project-summary">
+<strong> Problem:</strong> Marketing strategies lacked targeted customer focus.  <br>
+<strong>Solution:</strong> Segmenting customers into actionable groups enabled personalised campaigns.
+</p>
+        <a href="https://github.com/maik122/Elevvo/tree/main/CustomerSegmentation" target="_blank" class="github-link">
+          <i class="fab fa-github"></i> View Project on GitHub
+        </a>
+      </div>
+      <div class="project-details">
+        <p>
+          Applied K-Means clustering as the primary method and experimented with DBSCAN to identify dense customer segments.  
+          Used visualisation with matplotlib and seaborn to provide insights for marketing campaigns and personalised offers.
+        </p>
+      </div>
+    </div>
+
+    <!-- Forest Cover Classification -->
+    <div class="project-card">
+      <div class="card-content">
+        <h3>Forest Cover Type Classification</h3>
+    <p class="project-summary">
+    <strong>Problem:</strong> Identifying forest types from environmental data was challenging.  <br>
+    <strong>Solution:</strong> Built a predictive system to classify forest types accurately, supporting ecological analysis.
+    </p>
+
+        <a href="https://github.com/maik122/Elevvo/tree/main/ForestCoverTypeClassification" target="_blank" class="github-link">
+          <i class="fab fa-github"></i> View Project on GitHub
+        </a>
+      </div>
+      <div class="project-details">
+        <p>
+          Trained Random Forest and XGBoost classifiers, performed feature preprocessing, hyperparameter tuning, and evaluated using confusion matrices.  
+          Highlighted key environmental features impacting forest type prediction.
+        </p>
+      </div>
+    </div>
+
+    <!-- Movie Recommendation -->
+    <div class="project-card">
+      <div class="card-content">
+        <h3>Movie Recommendation System</h3>
+<p class="project-summary">
+<strong>Problem:</strong> Users struggled to discover movies matching their tastes.  <br>
+<strong>Solution:</strong> Developed a recommendation system to suggest movies based on viewing behaviour.
+</p>
+
+        <a href="https://github.com/maik122/Elevvo/tree/main/MovieRecommendationSystem" target="_blank" class="github-link">
+          <i class="fab fa-github"></i> View Project on GitHub
+        </a>
+      </div>
+      <div class="project-details">
+        <p>
+          Implemented user-based and item-based collaborative filtering using the MovieLens 100K dataset.  
+          Explored matrix factorisation (SVD) and evaluated models using Precision@K.  
+          Visual comparison of approaches revealed strengths and weaknesses for personalised recommendations.
+        </p>
+      </div>
+    </div>
+
+    <!-- Music Genre Classification -->
+    <div class="project-card">
+      <div class="card-content">
+        <h3>Music Genre Classification</h3>
+<p class="project-summary">
+<strong> Problem:</strong> Sorting large music datasets by genre was inefficient.  <br>
+<strong>Solution:</strong> Implemented a classification system to automate genre identification for better organisation.
+</p>
+
+        <a href="https://github.com/maik122/Elevvo/tree/main/MusicGenreClassification" target="_blank" class="github-link">
+          <i class="fab fa-github"></i> View Project on GitHub
+        </a>
+      </div>
+      <div class="project-details">
+        <p>
+          Compared Random Forest trained on tabular features with a CNN using ResNet50 on spectrograms.  
+          Analysed model performance, with Random Forest achieving 77% accuracy, outperforming CNN in this dataset.  
+          Illustrated practical approaches for audio-based ML tasks.
+        </p>
+      </div>
+    </div>
+
+    <!-- Sales Forecasting -->
+    <div class="project-card">
+      <div class="card-content">
+        <h3>Sales Forecasting — Walmart Dataset</h3>
+<p class="project-summary">
+<strong>Problem:</strong> Predicting store-level sales was unreliable.  <br>
+<strong>Solution:</strong> Built a forecasting system that improves accuracy and informs inventory planning.
+</p>
+
+        <a href="https://github.com/maik122/Elevvo/tree/main/SalesForecasting" target="_blank" class="github-link">
+          <i class="fab fa-github"></i> View Project on GitHub
+        </a>
+      </div>
+      <div class="project-details">
+        <p>
+          Applied regression models with feature engineering, including seasonal trends, promotions, and holidays.  
+          Designed a scalable forecasting pipeline for department and store-level sales predictions.
+        </p>
+      </div>
+    </div>
+
+    <!-- Traffic Sign Recognition -->
+    <div class="project-card">
+      <div class="card-content">
+        <h3>Traffic Sign Recognition</h3>
+<p class="project-summary">
+<strong>Problem:</strong> Autonomous systems required fast and accurate traffic sign identification.  <br>
+<strong>Solution:</strong> Developed a recognition system to classify signs and support safe navigation.
+</p>
+
+        <a href="https://github.com/maik122/Elevvo/tree/main/TrafficSignRecognition" target="_blank" class="github-link">
+          <i class="fab fa-github"></i> View Project on GitHub
+        </a>
+      </div>
+      <div class="project-details">
+        <p>
+          Preprocessed images, applied data augmentation, trained a deep CNN, and validated performance.  
+          Optionally compared results with pre-trained models to explore transfer learning advantages.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <!-- Web Development Projects -->
+  <h2>Software & Web Development Projects</h2>
+  <div class="project-grid">
+
+    <!-- Transfer Value -->
+    <div class="project-card">
+      <div class="card-content">
+        <h3>Football Player Transfer Value Website</h3>
+      <p class="project-summary">
+      <strong>Problem:</strong> Tracking football player market values was complex.  <br>
+      <strong>Solution:</strong> Developed a platform that visualises and predicts player valuations efficiently.
+      </p>
+
+        <a href="https://github.com/maik122/football-player-transfer-value" target="_blank" class="github-link">
+          <i class="fab fa-github"></i> View Project on GitHub
+        </a>
+        <div class="carousel">
+          <button class="carousel-btn prev">&#10094;</button>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/TransferValueComparison.png" alt="Transfer comparison">
+              <p class="carousel-caption">Player value comparison page</p>
+            </div>
+            <div class="carousel-item">
+              <img src="images/TransferValueAdmin.png" alt="Admin dashboard">
+              <p class="carousel-caption">Admin management interface</p>
+            </div>
+          </div>
+          <button class="carousel-btn next">&#10095;</button>
+        </div>
+                <div class="project-details">
+          <p>
+            Created a Flask + SQLite web app that predicts football player transfer values based on historical data.
+            Features user authentication, admin dashboards, and dynamic data visualisation using Chart.js.
+            This project showcases full-stack development, database integration, and interactive UI design.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Railway -->
+    <div class="project-card">
+      <div class="card-content">
+        <h3>UK Railway System</h3>
+<p class="project-summary">
+<strong>Problem:</strong> Train ticket booking and schedule management were cumbersome.  <br>
+<strong>Solution:</strong> Built a streamlined system simplifying bookings and operational oversight.
+</p>
+
+
+        <a href="https://github.com/maik122/UK-railway-system" target="_blank" class="github-link">
+          <i class="fab fa-github"></i> View Project on GitHub
+        </a>
+        <div class="carousel">
+          <button class="carousel-btn prev">&#10094;</button>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/systemHomePage.png" alt="Home page">
+              <p class="carousel-caption">System homepage</p>
+            </div>
+            <div class="carousel-item">
+              <img src="images/systemAdminInterface.png" alt="Admin interface">
+              <p class="carousel-caption">Admin interface for schedule management</p>
+            </div>
+            <div class="carousel-item">
+              <img src="images/systemConfirmation.png" alt="Confirmation page">
+              <p class="carousel-caption">Booking confirmation view</p>
+            </div>
+          </div>
+          <button class="carousel-btn next">&#10095;</button>
+        </div>
+                <div class="project-details">
+          <p>
+            Designed a Tkinter-based booking system with user, admin, and schedule management features.
+            Includes dynamic ticket confirmation and data validation for realistic travel management simulation.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hotel -->
+    <div class="project-card">
+      <div class="card-content">
+        <h3>Hotel Booking Platform</h3>
+<p class="project-summary">
+<strong>Problem:</strong> Hotel booking and management processes were disjointed.  <br>
+<strong>Solution:</strong> Created an integrated platform to manage reservations and administrative tasks efficiently.
+</p>
+
+
+        <a href="https://github.com/maik122/Hotel-booking-website" target="_blank" class="github-link">
+          <i class="fab fa-github"></i> View Project on GitHub
+        </a>
+        <div class="carousel">
+          <button class="carousel-btn prev">&#10094;</button>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/HotelHomepage.png" alt="Homepage">
+              <p class="carousel-caption">Hotel homepage</p>
+            </div>
+            <div class="carousel-item">
+              <img src="images/HotelBooking.png" alt="Booking page">
+              <p class="carousel-caption">Booking selection interface</p>
+            </div>
+            <div class="carousel-item">
+              <img src="images/HotelAdminInterface.png" alt="Admin interface">
+              <p class="carousel-caption">Admin management page</p>
+            </div>
+          </div>
+          <button class="carousel-btn next">&#10095;</button>
+        </div>
+                <div class="project-details">
+          <p>
+            Developed a Flask + SQLAlchemy platform supporting user authentication, booking management, and admin dashboards.
+            Optimised for performance and database-driven dynamic page rendering.
+            This project demonstrates backend development, UI/UX, and API design.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  
 <section id="skills" class="container">
-    <h2>Skills & Tools</h2>
-
-    <!-- Core AI/ML & Data Science Skills -->
-    <h3>AI, Machine Learning & Data Science</h3>
-    <div class="skills-grid">
-        <div class="skill"><i class="fab fa-python"></i><p>Python</p></div>
-        <div class="skill"><i class="fas fa-brain"></i><p>Machine Learning</p></div>
-        <div class="skill"><i class="fas fa-network-wired"></i><p>Deep Learning</p></div>
-        <div class="skill"><i class="fas fa-robot"></i><p>Artificial Intelligence</p></div>
-        <div class="skill"><i class="fas fa-layer-group"></i><p>Neural Networks</p></div>
-        <div class="skill"><i class="fas fa-comment-dots"></i><p>Natural Language Processing</p></div>
-        <div class="skill"><i class="fas fa-chart-line"></i><p>Data Visualization</p></div>
-        <div class="skill"><i class="fas fa-database"></i><p>SQL</p></div>
-        <div class="skill"><i class="fas fa-tasks"></i><p>Data Manipulation (Pandas)</p></div>
-        <div class="skill"><i class="fas fa-cogs"></i><p>NumPy</p></div>
-        <div class="skill"><i class="fas fa-project-diagram"></i><p>Scikit-learn</p></div>
-        <div class="skill"><i class="fab fa-telegram-plane"></i><p>TensorFlow</p></div>
-        <div class="skill"><i class="fas fa-book-open"></i><p>Jupyter Notebooks</p></div>
-        <div class="skill"><i class="fas fa-chart-pie"></i><p>Matplotlib / Seaborn</p></div>
-    </div>
-
-    <!-- Software Development & Tools -->
-    <h3>Software Development & Tools</h3>
-    <div class="skills-grid">
-        <div class="skill"><i class="fas fa-code"></i><p>C++</p></div>
-        <div class="skill"><i class="fas fa-code-branch"></i><p>Version Control (Git)</p></div>
-        <div class="skill"><i class="fas fa-server"></i><p>Flask / FastAPI</p></div>
-        <div class="skill"><i class="fas fa-database"></i><p>SQLAlchemy</p></div>
-        <div class="skill"><i class="fas fa-desktop"></i><p>Tkinter</p></div>
-        <div class="skill"><i class="fas fa-code"></i><p>HTML / CSS / JavaScript</p></div>
-        <div class="skill"><i class="fas fa-laptop-code"></i><p>Full-Stack Development</p></div>
-        <div class="skill"><i class="fas fa-sitemap"></i><p>UML & Software Design</p></div>
-        <div class="skill"><i class="fas fa-users-cog"></i><p>Agile Methodologies</p></div>
-        <div class="skill"><i class="fas fa-clock"></i><p>Time Management</p></div>
-        <div class="skill"><i class="fas fa-lightbulb"></i><p>Problem Solving</p></div>
-    </div>
+  <h2>Skills & Tools</h2>
+  <h3>AI, Machine Learning & Data Science</h3>
+  <div class="skills-grid">
+    <div class="skill"><i class="fab fa-python"></i><p>Python</p></div>
+    <div class="skill"><i class="fas fa-brain"></i><p>Machine Learning</p></div>
+    <div class="skill"><i class="fas fa-network-wired"></i><p>Deep Learning</p></div>
+    <div class="skill"><i class="fas fa-robot"></i><p>Artificial Intelligence</p></div>
+    <div class="skill"><i class="fas fa-layer-group"></i><p>Neural Networks</p></div>
+    <div class="skill"><i class="fas fa-comment-dots"></i><p>Natural Language Processing</p></div>
+    <div class="skill"><i class="fas fa-chart-line"></i><p>Data Visualization</p></div>
+    <div class="skill"><i class="fas fa-database"></i><p>SQL</p></div>
+    <div class="skill"><i class="fas fa-tasks"></i><p>Data Manipulation (Pandas)</p></div>
+    <div class="skill"><i class="fas fa-cogs"></i><p>NumPy</p></div>
+    <div class="skill"><i class="fas fa-project-diagram"></i><p>Scikit-learn</p></div>
+    <div class="skill"><i class="fab fa-telegram-plane"></i><p>TensorFlow</p></div>
+    <div class="skill"><i class="fas fa-book-open"></i><p>Jupyter Notebooks</p></div>
+    <div class="skill"><i class="fas fa-chart-pie"></i><p>Matplotlib / Seaborn</p></div>
+  </div>
+  <h3>Software Development & Tools</h3>
+  <div class="skills-grid">
+    <div class="skill"><i class="fas fa-code"></i><p>C++</p></div>
+    <div class="skill"><i class="fas fa-code-branch"></i><p>Version Control (Git)</p></div>
+    <div class="skill"><i class="fas fa-server"></i><p>Flask / FastAPI</p></div>
+    <div class="skill"><i class="fas fa-database"></i><p>SQLAlchemy</p></div>
+    <div class="skill"><i class="fas fa-desktop"></i><p>Tkinter</p></div>
+    <div class="skill"><i class="fas fa-code"></i><p>HTML / CSS / JavaScript</p></div>
+    <div class="skill"><i class="fas fa-laptop-code"></i><p>Full-Stack Development</p></div>
+    <div class="skill"><i class="fas fa-sitemap"></i><p>UML & Software Design</p></div>
+    <div class="skill"><i class="fas fa-users-cog"></i><p>Agile Methodologies</p></div>
+    <div class="skill"><i class="fas fa-clock"></i><p>Time Management</p></div>
+    <div class="skill"><i class="fas fa-lightbulb"></i><p>Problem Solving</p></div>
+  </div>
 </section>
-    
-    
-
-
     <section id="CV" class="container">
-        <h2>CV</h2>
+        <h2>Curriculum Vitae  </h2>
         <div class="center-wrapper">
             <a href="CV/cv.pdf" download class="resume-download">Download CV</a>
+            <br><br>
         </div>
     </section>
-    <section>
-            <!--contact-->
-            <div class="container" id="contact">
-                <h2>Contact</h2>
-                <p>Email: mai_mohsen02@hotmail.com </p>
-                <p>Phone: +447709865298 </p>
-                <p>Linkedin: <a href="https://www.linkedin.com/in/mai-k-30b040192/?trk=public-profile-join-page"> Mai Kassem  </a> </p>
-                <p>GitHub: <a href="https://github.com/maik122"> maik122 </a></p>
-            </div>
-    </section>
-    <footer>
+  <!-- Contact -->
+  <section id="contact" class="container">
+    <h2>Contact</h2>
+    <p>Email: mai_mohsen02@hotmail.com</p>
+    <p>Phone: +447709865298</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/mai-k-30b040192/?trk=public-profile-join-page">Mai Kassem</a></p>
+    <p>GitHub: <a href="https://github.com/maik122">maik122</a></p>
+  </section>
 
-        <div class="container">
-            <p>&copy; 2024 Mai  Kassem . All rights reserved.</p>
-        </div>   
-    </footer>
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Mai Kassem. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Dark mode toggle -->
+  <script>
+    const toggleSwitch = document.getElementById('dark-mode-toggle');
+    const bodyElement = document.body;
+    toggleSwitch.addEventListener('change', function() {
+      if (this.checked) bodyElement.classList.add('dark-theme');
+      else bodyElement.classList.remove('dark-theme');
+    });
+  </script>
+<script>
+function toggleProject(header) {
+  const card = header.closest('.project-card');
+  const details = card.querySelector('.project-details');
+
+  // collapse others
+  document.querySelectorAll('.project-card').forEach(c => {
+    if (c !== card) {
+      c.classList.remove('active', 'fullscreen');
+    }
+  });
+
+  // toggle this one
+  card.classList.toggle('active');
+  card.classList.toggle('fullscreen');
+}
+
+// carousel logic
+document.querySelectorAll('.carousel').forEach(carousel => {
+  const items = carousel.querySelectorAll('.carousel-item');
+  const prevBtn = carousel.querySelector('.carousel-btn.prev');
+  const nextBtn = carousel.querySelector('.carousel-btn.next');
+  let index = 0;
+
+  const updateCarousel = () => {
+    items.forEach((item, i) => {
+      item.classList.toggle('active', i === index);
+    });
+  };
+
+  prevBtn.addEventListener('click', e => {
+    e.stopPropagation();
+    index = (index - 1 + items.length) % items.length;
+    updateCarousel();
+  });
+
+  nextBtn.addEventListener('click', e => {
+    e.stopPropagation();
+    index = (index + 1) % items.length;
+    updateCarousel();
+  });
+
+  updateCarousel();
+});
+</script>
+
+<script>
+(() => {
+  const projectCards = Array.from(document.querySelectorAll('.project-card'));
+  let openCard = null;
+
+  // Helper to switch carousel image
+  function showImageFor(card, index) {
+    const imgs = card._imgs || [];
+    imgs.forEach((img, i) => img.classList.toggle('active', i === index));
+    card._currentIndex = index;
+  }
+
+  // Close expanded card
+  function closeCard(card) {
+    if (!card || !card.classList.contains('expanded')) return;
+
+    card.classList.remove('expanded');
+    document.body.classList.remove('expanded-mode');
+    document.body.style.overflow = '';
+
+    const ph = card._placeholder;
+    if (ph && ph.parentNode) {
+      ph.parentNode.insertBefore(card, ph);
+      ph.parentNode.removeChild(ph);
+      delete card._placeholder;
+    }
+
+    openCard = null;
+  }
+
+  // Open card (fullscreen)
+  function openCardNow(card) {
+    if (card.classList.contains('expanded')) return;
+
+    // placeholder to prevent layout jump
+    const ph = document.createElement('div');
+    ph.className = 'project-placeholder';
+    ph.style.height = card.offsetHeight + 'px';
+    card.parentNode.insertBefore(ph, card);
+    card._placeholder = ph;
+    card.style.transition = 'transform 0.25s ease, opacity 0.25s ease';
+    card.style.opacity = '0';
+    requestAnimationFrame(() => {
+    card.style.opacity = '1';
+    });
+
+    // move card to body for fullscreen
+    document.body.appendChild(card);
+    document.body.classList.add('expanded-mode');
+    document.body.style.overflow = 'hidden';
+    card.classList.add('expanded');
+
+    // show the current image properly
+    showImageFor(card, card._currentIndex || 0);
+
+    openCard = card;
+  }
+
+  // close all
+  function closeAll() {
+    projectCards.forEach(c => closeCard(c));
+  }
+
+  // initialise each card
+  projectCards.forEach(card => {
+    const carouselInner = card.querySelector('.carousel-inner') || card.querySelector('.carousel');
+    const imgs = carouselInner ? Array.from(carouselInner.querySelectorAll('img')) : [];
+    card._imgs = imgs;
+    card._currentIndex = 0;
+    showImageFor(card, 0);
+
+    // next / prev handlers
+    const prev = card.querySelector('.prev');
+    const next = card.querySelector('.next');
+
+    prev && prev.addEventListener('click', e => {
+      e.stopPropagation();
+      if (!imgs.length) return;
+      const nextIndex = (card._currentIndex - 1 + imgs.length) % imgs.length;
+      showImageFor(card, nextIndex);
+    });
+
+    next && next.addEventListener('click', e => {
+      e.stopPropagation();
+      if (!imgs.length) return;
+      const nextIndex = (card._currentIndex + 1) % imgs.length;
+      showImageFor(card, nextIndex);
+    });
+
+    // swipe gestures
+    let startX = 0, endX = 0;
+    if (carouselInner) {
+      carouselInner.addEventListener('touchstart', e => startX = e.touches[0].clientX, {passive: true});
+      carouselInner.addEventListener('touchmove', e => endX = e.touches[0].clientX, {passive: true});
+      carouselInner.addEventListener('touchend', () => {
+        const delta = endX - startX;
+        if (Math.abs(delta) > 50 && imgs.length) {
+          const nextIndex = (delta > 0)
+            ? (card._currentIndex - 1 + imgs.length) % imgs.length
+            : (card._currentIndex + 1) % imgs.length;
+          showImageFor(card, nextIndex);
+        }
+      }, {passive: true});
+    }
+
+    // click to toggle expansion
+    card.addEventListener('click', e => {
+      if (e.target.closest('.github-link') || e.target.closest('.carousel-btn')) return;
+      const isOpen = card.classList.contains('expanded');
+      if (openCard && openCard !== card) closeAll();
+      if (isOpen) closeCard(card);
+      else openCardNow(card);
+    });
+  });
+
+  // close on Escape
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeAll(); });
+
+  // close when clicking outside
+  document.addEventListener('click', e => {
+    if (!openCard) return;
+    if (!openCard.contains(e.target) && !e.target.closest('.project-card')) {
+      closeAll();
+    }
+  });
+})();
+</script>
+<script>
+document.querySelectorAll('.carousel').forEach(carousel => {
+  const items = carousel.querySelectorAll('.carousel-item');
+  const prevBtn = carousel.querySelector('.carousel-btn.prev');
+  const nextBtn = carousel.querySelector('.carousel-btn.next');
+  let currentIndex = 0;
+
+  function showSlide(index) {
+    items.forEach((item, i) => {
+      item.classList.toggle('active', i === index);
+    });
+  }
+
+  prevBtn.addEventListener('click', e => {
+    e.stopPropagation(); // stops collapsing the card
+    currentIndex = (currentIndex - 1 + items.length) % items.length;
+    showSlide(currentIndex);
+  });
+
+  nextBtn.addEventListener('click', e => {
+    e.stopPropagation();
+    currentIndex = (currentIndex + 1) % items.length;
+    showSlide(currentIndex);
+  });
+
+  // ensure first image is visible by default
+  showSlide(currentIndex);
+});
+</script>
+
 </body>
 </html>
-
-
-<script>
-// Dark mode toggle functionality
-const toggleSwitch = document.getElementById('dark-mode-toggle');
-const bodyElement = document.body;
-
-toggleSwitch.addEventListener('change', function() {
-    if (this.checked) {
-        bodyElement.classList.add('dark-theme');
-    } else {
-        bodyElement.classList.remove('dark-theme');
-    }
-});
-
-</script>
-<script>
-    const cards = document.querySelectorAll('.project-card');
-
-cards.forEach(card => {
-    card.addEventListener('click', (e) => {
-        // Prevent triggering when clicking the GitHub link
-        if(e.target.closest('.github-link')) return;
-
-        // Toggle expanded class
-        card.classList.toggle('expanded');
-
-        // Optional: disable scroll behind expanded card
-        if(card.classList.contains('expanded')) {
-            document.body.style.overflow = 'hidden';
-        } else {
-            document.body.style.overflow = '';
-        }
-    });
-});
-
-</script>
